@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Test.Server" GeneratedClassName="ServerSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.105.27.118</Value>
+    </Setting>
+    <Setting Name="ForClientsPorts" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">8898,8887,8080,8767,8654,8476</Value>
+    </Setting>
+    <Setting Name="LoadBalancerIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="LoadBalancerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8001</Value>
+    </Setting>
+    <Setting Name="LoadUpdateTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">15000</Value>
+    </Setting>
+    <Setting Name="SynchDeadClients" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">29000</Value>
+    </Setting>
+    <Setting Name="ForServersPorts" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">8778,8988</Value>
+    </Setting>
+    <Setting Name="SlidingWindowSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="FailCountForDisconnect" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="SessionTimeOutSeconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-90</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
