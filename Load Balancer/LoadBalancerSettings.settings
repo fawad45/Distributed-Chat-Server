@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Test" GeneratedClassName="LoadBalancerSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ThreadPoolSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="PortForServers" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8001</Value>
+    </Setting>
+    <Setting Name="PortForClients" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8888</Value>
+    </Setting>
+    <Setting Name="ConsecutiveClientConnection" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
